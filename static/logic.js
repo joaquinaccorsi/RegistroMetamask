@@ -1,5 +1,5 @@
-const serverUrl = "";
-const appId = "";
+const serverUrl = "https://2q451qcgjm0j.usemoralis.com:2053/server";
+const appId = "zZn33Yy1q08byxsYU4JQKjletBWErKcoFnosP9oB";
 
 Moralis.start({ serverUrl, appId });
 
