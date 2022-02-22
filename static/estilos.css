@@ -1,0 +1,38 @@
+div#CONTENEDOR {
+    top: 100px;
+    height: 80vh;
+    background-color: rgba(114, 230, 68, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+button#login.btn.btn-dark{
+
+    background:linear-gradient(rgba(0,0,10,1),rgba(0,0,60,1));
+    color: white;
+    text-transform: lowercase;
+
+}
+
+
+main,html{
+    background-color: rgba(0,0,60,0.6);
+    
+}
+input#username.form-control {
+    background-color: rgba(0,0,10,0.7);
+    text-align: center;
+    width: 100%;
+}
+input#email.form-control {
+    background-color: rgba(0,0,10,0.7);
+    text-align: center;
+}
